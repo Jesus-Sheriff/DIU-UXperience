@@ -6,9 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- PAGE settings -->
   <link rel="icon" href="https://templates.pingendo.com/assets/Pingendo_favicon.ico">
-  <title>AgendaUgr - UXperience</title>
-  <meta name="description">
-  <meta name="keywords">
+  <title>AGENDA UGR - UXperience</title>
+  <meta name="description" content="Free Bootstrap 4 Pingendo Aquamarine template for unique events.">
+  <meta name="keywords" content="Pingendo conference event aquamarine free template bootstrap 4">
   <!-- CSS dependencies -->
   <link rel="stylesheet" href="theme.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
@@ -40,8 +40,7 @@
                       <div class="row">
                         <div class="col-md-12 text-white">
                           <div class="btn-group">
-                            <a href="micuenta.html" class="btn btn-lg btn-primary shadowed">Luis Pedro</a>
-                            <a class="btn btn-primary btn-lg shadowed" href="index.html">Cerrar Sesión</a>
+                            <a href="login.html" class="btn btn-primary btn-lg shadowed">Login</a>
                           </div>
                         </div>
                       </div>
@@ -85,7 +84,7 @@
         <div class="col-md-12" style="transition: all 0.25s;">
           <ul class="nav nav-pills w-100 d-flex align-self-center align-items-center justify-content-center">
             <li class="nav-item">
-              <a href="index_logueado.html" class="active nav-link">
+              <a href="index.html" class="active nav-link">
                 <i class="fa fa-home fa-home"></i>&nbsp;Home</a>
             </li>
             <li class="nav-item">
@@ -115,10 +114,11 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12">
-          <ul class="breadcrumb mx-4 w-50" style="margin-bottom: 0px; margin-top: 0px;">
+          <ul class="breadcrumb justify-content-start mx-4" style="margin-bottom: 0px; margin-top: 0px;">
             <li class="breadcrumb-item">
-              <a href="index_logueado.html">Home</a>
+              <a href="index.html">Home</a>
             </li>
+            <li class="breadcrumb-item active">Búsqueda: exposición</li>
           </ul>
         </div>
       </div>
@@ -158,13 +158,14 @@
         <div class="col-md-2">
           <div class="row"> </div>
           <div class="row h-25" style="background-image: url('images/anuncio.png');"></div>
-          <div class="row h-25">
-            <div class="col-md-12" style="background-image: url('images/anuncio.png');"></div>
-          </div>
+          <div class="row h-25" style="background-image: url('images/anuncio.png');"></div>
           <div class="row h-25" style="background-image: url('images/anuncio.png');"></div>
         </div>
         <div class="col-md-7">
           <div class="card">
+            <div class="card-header text-uppercase">
+              <b>Busqueda: exposición</b>
+            </div>
             <div class="card-header">Hoy viernes 27 Abril</div>
             <div class="card-body">
               <h4>
@@ -174,11 +175,13 @@
               <p>Horario: de 10:30 a 13:30 horas y de 17:00 a 20:00</p>
             </div>
             <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">‘Mirarnos’: Muestra de arte hecho por mujeres</a>
-              </h4>
-              <h6 class="card-subtitle text-muted">Centro “Carmen Jiménez”, Camino Forestal de La Zubia (La Zubia, Granada). </h6>
-              <p class="card-text p-y-1">Horario: de 10:30 a 13:30 horas y de 17:00 a 20:00</p>
+              <div class="card-body">
+                <h4>
+                  <a href="ultimo-bosque.html">Exposición: El último bosque | Katarzyna Pacholik</a>
+                </h4>
+                <h6 class="text-muted">Sala de exposiciones de la Facultad de BBAA de la Universidad de Granada.</h6>
+                <p>Horario: de 10:30 a 13:30 horas y de 17:00 a 20:00</p>
+              </div>
             </div>
           </div>
           <div class="row h-25">
@@ -187,9 +190,9 @@
                 <div class="card-header"> Sábado 28 Abril</div>
                 <div class="card-body">
                   <h4>
-                    <a href="#">FACBA 18. Moreno &amp; Grau</a>
+                    <a href="ultimo-bosque.html">Exposición: El último bosque | Katarzyna Pacholik</a>
                   </h4>
-                  <h6 class="text-muted">Centro Cultural Cajagranada (Avenida de la Ciencia, 2, Granada)</h6>
+                  <h6 class="text-muted">Sala de exposiciones de la Facultad de BBAA de la Universidad de Granada.</h6>
                   <p>Horario: de 10:30 a 13:30 horas y de 17:00 a 20:00</p>
                 </div>
               </div>
@@ -201,7 +204,7 @@
             <img class="img-fluid d-block" src="images/calendario.png" style="background-image: url('images/calendario.png');background-size:cover;" width="200"> </a>
           <div class="row h-25">
             <div class="col-md-12">
-              <form class="" action="ultimo-bosque.html">
+              <form class="" action="busqueda.html">
                 <div class="form-group">
                   <label></label>
                   <input type="email" class="form-control" placeholder="Buscar evento">
